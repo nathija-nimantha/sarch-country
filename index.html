@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Finder</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <td style="width: 50%;">
+                <div>
+                    <input type="text" id="txtSearchValue">
+                    <input id="btnSearch" type="button" value="Search" onclick="serchCuntrie()">
+                    <h1 id="officialName">Search a country</h1>
+                    <h1 id="name"></h1>
+                    <h1 id="capital"></h1>
+                    <h1 id="region"></h1>
+                    <h1 id="population"></h1>
+                    <div id="img"></div>
+                </div>
+            </td>
+            <td>
+                <table id="tbl"></table>
+            </td>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
